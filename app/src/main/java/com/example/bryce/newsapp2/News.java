@@ -1,29 +1,14 @@
 package com.example.bryce.newsapp2;
 
-public class News {
+class News {
 
-
-    //  title of the article
     private String mDate;
-
-
-    // name of the section
     private String mSectionName;
-
-
     private String mArticle;
-
     private String mUrl;
     private String mAuthor;
 
-    /**
-     * Constructor (@link News) object.
-     *
-     * @param date    is the date of the article
-     * @param section is the name of the section
-     */
-
-    public News(String date, String section, String report, String url, String author) {
+    News(String date, String section, String report, String url, String author) {
 
         mDate = date;
         mSectionName = section;
@@ -32,35 +17,23 @@ public class News {
         mAuthor = author;
     }
 
-    /**
-     * Returns the date of the article
-     */
-    public String getmDate() {
+    String getmDate() {
         return mDate;
     }
 
-    /**
-     * Returns the news headline
-     */
-    public String getmSectionName() {
+    String getmSectionName() {
         return mSectionName;
     }
 
-    /**
-     * Returns the actual article
-     */
-    public String getmArticle() {
+    String getmArticle() {
         return mArticle;
     }
 
-    /**
-     * Returns the website of the article
-     */
-    public String getUrl() {
+    String getUrl() {
         return mUrl;
     }
 
-    public String getmAuthor() {
+    String getmAuthor() {
         return mAuthor;
 
     }
