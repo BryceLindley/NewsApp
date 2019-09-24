@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guardian News</string>
+    <string name="no_news">No News updates available, please reload the app or check after some time..</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="ten_thousand">10,000</string>
+    <string name="fifteen_thousand">15,000</string>
+</resources>
