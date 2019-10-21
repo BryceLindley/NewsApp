@@ -2,39 +2,39 @@ package com.example.bryce.newsapp2;
 
 class News {
 
-    private String mDate;
-    private String mSectionName;
-    private String mArticle;
-    private String mUrl;
-    private String mAuthor;
+    private String date;
+    private String section;
+    private String report;
+    private String url;
+    private String author;
 
     News(String date, String section, String report, String url, String author) {
 
-        mDate = date;
-        mSectionName = section;
-        mArticle = report;
-        mUrl = url;
-        mAuthor = author;
+        this.date = date;
+        this.section = section;
+        this.report = report;
+        this.url = url;
+        this.author = author;
     }
 
-    String getmDate() {
-        return mDate;
+    String getDate() {
+        return date;
     }
 
-    String getmSectionName() {
-        return mSectionName;
+    String getSection() {
+        return section;
     }
 
-    String getmArticle() {
-        return mArticle;
+    String getReport() {
+        return report;
     }
 
     String getUrl() {
-        return mUrl;
+        return url;
     }
 
-    String getmAuthor() {
-        return mAuthor;
+    String getAuthor() {
+        return author;
 
     }
 }
